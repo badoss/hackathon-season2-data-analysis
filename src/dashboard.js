@@ -19,6 +19,7 @@ import Barchart from "./components/Barchart";
 import Piechart from "./components/Piechart";
 import Piechartdept from "./components/Piechartdept";
 import Table from "./components/Table";
+import Mapgeo from "./components/map";
 
 export default function Dashboard() {
 
@@ -66,7 +67,13 @@ export default function Dashboard() {
                                 <Card sx={{ height: 400 }}>card 5</Card>
                             </Grid>
                             <Grid xs={12} md={12} >
-                                <Card sx={{ height: 400 }}>card 6</Card>
+                                <Card sx={{ height: 1000 , p : 2}}>
+                                    <Typography>Map</Typography>
+                             
+                                    <Mapgeo />
+                      
+                       
+                                </Card>
                             </Grid>
                         </Grid>
                     </Box>
