@@ -33,6 +33,12 @@ const data = [
     pv: 4800,
     amt: 2181,
   },
+  {
+    name: 'Page F',
+    uv: 1890,
+    pv: 4800,
+    amt: 2181,
+  },
 
 ];
 
