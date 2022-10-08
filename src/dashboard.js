@@ -3,7 +3,7 @@ import React from "react";
 import Box from '@mui/material/Box';
 // import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
-import { Card } from "@mui/material";
+import { Card, Typography } from "@mui/material";
 
 
 import Tab from '@mui/material/Tab';
@@ -58,6 +58,7 @@ export default function Dashboard() {
                             </Grid>
                             <Grid xs={12} md={4} >
                                 <Card sx={{ height: 400 }}>
+                                    <Typography>DEPARTMENT</Typography>
                                     <Piechartdept />
                                 </Card>
                             </Grid>
