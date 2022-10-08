@@ -48,7 +48,7 @@ const rows = [
 
 export default function Table() {
   return (
-    <Box sx={{ height: 700, width: '100%' , backgroundColor : "#FFFF"}}>
+    <Box sx={{ height: 700, width: '100%' , backgroundColor : "#FFFF" , borderRadius : 2}}>
       <DataGrid
         rows={rows}
         columns={columns}

@@ -53,9 +53,9 @@ export default class Linechart extends PureComponent {
           height={300}
           data={data}
           margin={{
-            top: 10,
-            right: 10,
-            left: 30,
+            top: 20,
+            right: 30,
+            left: 10,
             bottom: 10,
           }}
         >

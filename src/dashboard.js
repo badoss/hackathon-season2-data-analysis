@@ -7,6 +7,7 @@ import { Card } from "@mui/material";
 
 
 import Tab from '@mui/material/Tab';
+
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
@@ -26,26 +27,26 @@ export default function Dashboard() {
         setValue(newValue);
     };
     return (
-        <Box sx={{ p: 1, flexGrow: 1, width: "100%" , backgroundColor : "#FFFF"}}>
-            <TabContext value={value}>
+        <Box sx={{ p: 1, flexGrow: 1, width: "100%" , backgroundColor : "#E7C2C2"}}>
+            <TabContext value={value} >
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                    <TabList onChange={handleChange} aria-label="lab API tabs example">
+                    <TabList onChange={handleChange} aria-label="lab API tabs example" centered>
                         <Tab label="data analysis" value="1" />
                         <Tab label="data table" value="2" />
                     </TabList>
                 </Box>
-                <TabPanel value="1" sx={{  backgroundColor : "#FFFF"}}>
+                <TabPanel value="1" sx={{ p : 1, backgroundColor : "#E7C2C2"}}>
                     <Box>
                         <Grid container spacing={2}>
                             <Grid xs={12} md={6} >
-                                <Card sx={{ height: 420, }}>
+                                <Card sx={{ height: 430 }}>
 
                                     <Linechart />
 
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={6} >
-                                <Card sx={{ height: 420 }}>
+                                <Card sx={{ height: 430 }}>
                                     <Barchart />
                                 </Card>
                             </Grid>
@@ -66,8 +67,9 @@ export default function Dashboard() {
                         </Grid>
                     </Box>
                 </TabPanel>
-                <TabPanel value="2"  sx={{  backgroundColor : "#FFFF"}}>
-                    <Box sx={{ height : "600"}}>
+                <TabPanel value="2"  sx={{ p : 1,  backgroundColor : "#F1E2E2" , borderRadius : 2}}>
+
+                    <Box sx={{p: 2 , height : "600" }}>
                         <Table />
                     </Box>
                 </TabPanel>
