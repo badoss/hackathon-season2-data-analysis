@@ -12,13 +12,13 @@ const columns = [
     },
     {
         field: 'FIRSTNAME',
-        headerName: 'First name',
+        headerName: 'FIRST NAME',
         width: 150,
         editable: false,
     },
     {
         field: 'LASTNAME',
-        headerName: 'Last name',
+        headerName: 'LAST NAME',
         width: 150,
         editable: false,
     },
@@ -30,13 +30,13 @@ const columns = [
     },
     {
         field: 'BIRTHDAY',
-        headerName: 'birthday',
+        headerName: 'BIRTHDAY',
         width: 150,
         editable: false,
     },
     {
         field: 'DEPT',
-        headerName: 'dept',
+        headerName: 'DEPT',
         width: 250,
         editable: false,
     },
