@@ -13,7 +13,7 @@ import Piechart from "./components/Piechart";
 
 export default function Dashboard() {
     return (
-      <Box sx={{ flexGrow: 1 , width: "90%"}}>
+      <Box sx={{ p : 1 , flexGrow: 1 , width: "90%"}}>
         <Grid container spacing={2}>
           <Grid xs={12} md={6} >
             <Card sx={{ height : 420 ,}}>

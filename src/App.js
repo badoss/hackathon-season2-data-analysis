@@ -10,8 +10,11 @@ function App() {
         <p>
         Hackathon-seson2-data-analysis
         </p>
-        <Dashboard />
+
       </header>
+      <body className='App-body'>
+      <Dashboard />
+      </body>
       <footer className="App-footer">
         BSMx team
       </footer>
