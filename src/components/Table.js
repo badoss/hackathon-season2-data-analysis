@@ -137,12 +137,12 @@ const rows = [
 
 export default function Table() {
     return (
-        <Box sx={{ height: 700, width: '100%', backgroundColor: "#FFFF", borderRadius: 2 }}>
+        <Box sx={{ height: 600, width: '100%', backgroundColor: "#FFFF", borderRadius: 2 }}>
             <DataGrid
                 rows={datainput}
                 columns={columns}
-                pageSize={20}
-                rowsPerPageOptions={[20]}
+                pageSize={10}
+                rowsPerPageOptions={[10]}
                 // checkboxSelection
                 disableSelectionOnClick
             // experimentalFeatures={{ newEditingApi: true }}

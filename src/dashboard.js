@@ -17,6 +17,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import Linechart from "./components/Linechart";
 import Barchart from "./components/Barchart";
 import Piechart from "./components/Piechart";
+import Piechartdept from "./components/Piechartdept";
 import Table from "./components/Table";
 
 export default function Dashboard() {
@@ -56,7 +57,9 @@ export default function Dashboard() {
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={4} >
-                                <Card sx={{ height: 400 }}>card 4</Card>
+                                <Card sx={{ height: 400 }}>
+                                    <Piechartdept />
+                                </Card>
                             </Grid>
                             <Grid xs={12} md={4} >
                                 <Card sx={{ height: 400 }}>card 5</Card>
@@ -67,9 +70,9 @@ export default function Dashboard() {
                         </Grid>
                     </Box>
                 </TabPanel>
-                <TabPanel value="2"  sx={{ p : 1,  backgroundColor : "#F1E2E2" , borderRadius : 2}}>
+                <TabPanel value="2"  sx={{ p : 1,   backgroundColor : "#F1E2E2" , borderRadius : 2}}>
 
-                    <Box sx={{p: 2 , height : "600" }}>
+                    <Box sx={{p: 2 , height : 700 }}>
                         <Table />
                     </Box>
                 </TabPanel>
