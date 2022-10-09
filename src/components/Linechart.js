@@ -49,7 +49,7 @@ export default class Linechart extends PureComponent {
         >
           <CartesianGrid strokeDasharray="1 1" />
           <XAxis dataKey="name"  />
-          <YAxis />
+          <YAxis type="number" domain={[0, 4]}/>
           <Tooltip />
           <Legend />
           <Line type="monotone" dataKey="Male" stroke="#8884d8" activeDot={{ r: 8 }} />
