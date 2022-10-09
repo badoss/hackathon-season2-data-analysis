@@ -16,8 +16,9 @@ import TabPanel from '@mui/lab/TabPanel';
 
 import Linechart from "./components/Linechart";
 import Barchart from "./components/Barchart";
-import Piechart from "./components/Piechart";
+// import Piechart from "./components/Piechart";
 import Piechartdept from "./components/Piechartdept";
+import Piechartregion from "./components/Piechartregion";
 import Table from "./components/Table";
 import Mapgeo from "./components/map";
 
@@ -54,7 +55,8 @@ export default function Dashboard() {
                             </Grid>
                             <Grid xs={12} md={4} >
                                 <Card sx={{ height: 400 }}>
-                                    <Piechart />
+                                <Typography>REGION</Typography>
+                                    <Piechartregion />
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={4} >

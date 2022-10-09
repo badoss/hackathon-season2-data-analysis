@@ -2,13 +2,15 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, ResponsiveContainer, Cell} from 'recharts';
 
 const data = [
-  { name: 'Flight Planning', value: 2 },
-  { name: 'Aircraft Maintenance', value: 4 },
-  { name: 'Flight Attendance', value: 4 },
-  { name: 'Pilot', value: 2 },
+  { name: 'Canada', value: 3 },
+  { name: 'Ocenia', value: 2 },
+  { name: 'APAC', value: 1 },
+  { name: 'USA', value: 1 },
+  { name: 'Europe', value: 3 },
+  { name: 'Middle East', value: 2 },
 ];
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042' , '#888888'];
+const COLORS = ['#8AD18B', '#00C49F', '#FFBB28', '#FF8042' , '#888888' , '#BD39B0'];
 
 const renderActiveShape = (props) => {
   const RADIAN = Math.PI / 180;
@@ -56,7 +58,7 @@ const renderActiveShape = (props) => {
   );
 };
 
-export default class Piechartdept extends PureComponent {
+export default class Piechartregion extends PureComponent {
 
 
   state = {
