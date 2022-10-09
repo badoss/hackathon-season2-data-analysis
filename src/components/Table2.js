@@ -45,7 +45,7 @@ const columns = [
         headerName: 'GENDER',
         width: 150,
         editable: false,
-        valueGetter: (params) => (params.row.GENDER === '1') ? `Female` : `Male`
+        // valueGetter: (params) => (params.row.GENDER === '1') ? `Female` : `Male`
     },
     {
         field: 'HIRED',
@@ -76,7 +76,7 @@ const columns = [
         headerName: 'STATUS',
         width: 150,
         editable: false,
-        valueGetter: (params) => (params.row.STATUS === '1') ? `Active` : `Resigned`
+        // valueGetter: (params) => (params.row.STATUS === '1') ? `Active` : `Resigned`
     }
 ];
 
