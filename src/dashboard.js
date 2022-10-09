@@ -43,14 +43,18 @@ export default function Dashboard() {
                     <Box>
                         <Grid container spacing={2}>
                             <Grid xs={12} md={6} >
-                                <Card sx={{ height: 430 }}>
-
+                                <Card sx={{ height: 440 }}>
+                                    <Typography>
+                                    Relationship between age and gender
+                                    </Typography>
                                     <Linechart />
-
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={6} >
-                                <Card sx={{ height: 430 }}>
+                                <Card sx={{ height: 440 }}>
+                                <Typography>
+                                    Relationship between position and gender
+                                    </Typography>
                                     <Barchart />
                                 </Card>
                             </Grid>
@@ -77,11 +81,8 @@ export default function Dashboard() {
                             </Grid>
                             <Grid xs={12} md={12} >
                                 <Card sx={{ height: 1000, p: 2 }}>
-                                    <Typography>Map</Typography>
-
+                                    <Typography> number of people in each region </Typography>
                                     <Mapgeo />
-
-
                                 </Card>
                             </Grid>
                         </Grid>

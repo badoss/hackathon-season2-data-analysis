@@ -7,7 +7,7 @@ const data = [
     name: 'Age 20-30',
     Female: 2,
     Male: 2,
-
+    
   },
   {
     name: 'Age 31-40',
@@ -35,7 +35,7 @@ export default class Linechart extends PureComponent {
 
   render() {
     return (
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer width="100%" height="90%">
         <LineChart
           width={500}
           height={300}
@@ -47,7 +47,7 @@ export default class Linechart extends PureComponent {
             bottom: 10,
           }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
+          <CartesianGrid strokeDasharray="1 1" />
           <XAxis dataKey="name"  />
           <YAxis />
           <Tooltip />
