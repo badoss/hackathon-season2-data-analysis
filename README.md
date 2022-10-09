@@ -23,6 +23,11 @@
 python start.py 
 ```
 
+2. .....
+``` 
+python query_view.py 
+```
+
 
 
 
@@ -30,6 +35,11 @@ python start.py
 
 
 1. show view on sqlite
+``` 
+python query_view.py 
+```
+2. ....
+
 ``` 
 python query_view.py 
 ```
