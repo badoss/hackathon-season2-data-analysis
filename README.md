@@ -13,11 +13,15 @@
 
 ## Start running
 
-``` python start.py ```
+``` 
+python start.py 
+```
 
 
 
 
 ## view DB sqlite
 
-``` python query_view.py ```
+``` 
+python query_view.py 
+```
