@@ -7,7 +7,7 @@ const data = [
   { name: 'Airhostess', value: 4 },
 ];
 
-const COLORS = ['#8AD18B', '#00C49F', '#FFBB28', '#FF8042' , '#888888' , '#BD39B0'];
+const COLORS = ['#4F9ABB', '#5B4FAC', '#00F9F9', '#FF8042' , '#888888' , '#BD39B0'];
 
 const renderActiveShape = (props) => {
   const RADIAN = Math.PI / 180;
