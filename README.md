@@ -20,10 +20,8 @@
 
 
 ## environment 
-- python 3.10.4
-    -[https://www.python.org]
-- sqlite3
-    -[https://docs.python.org/3/library/sqlite3.html]
+- python 3.10.4     [https://www.python.org]
+- sqlite3           [https://docs.python.org/3/library/sqlite3.html]
 
 ## Start running
 
