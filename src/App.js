@@ -1,15 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
 import Dashboard from './dashboard';
+import { Typography } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h1>
-        Hackathon-seson2-data-analysis
-        </h1>
+        <Typography variant="h4">
+
+        Hackathon Data Analysis Visualization
+        </Typography>
 
       </header>
       <body className='App-body'>
@@ -17,6 +19,7 @@ function App() {
       </body>
       <footer className="App-footer">
         BSMx team
+        <a href='https://github.com/badoss/hackathon-season2-data-analysis.git'>Link github</a>
       </footer>
     </div>
   );
