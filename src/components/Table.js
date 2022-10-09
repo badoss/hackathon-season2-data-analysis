@@ -78,34 +78,9 @@ const columns = [
         editable: false,
         valueGetter: (params) => (params.row.STATUS === '1') ? `Active` : `Resigned`
     }
-    //   {
-    //     field: 'lastName',
-    //     headerName: 'Last name',
-    //     width: 150,
-    //     editable: false,
-    //   },
-    //   {
-    //     field: 'age',
-    //     headerName: 'Age',
-    //     type: 'number',
-    //     width: 110,
-    //     editable: false,
-    //   },
-    //   {
-    //     field: 'fullName',
-    //     headerName: 'Full name',
-    //     description: 'This column has a value getter and is not sortable.',
-    //     sortable: false,
-    //     width: 160,
-    //     valueGetter: (params) =>
-    //       `${params.row.firstName || ''} ${params.row.lastName || ''}`,
-    //   },
 ];
 
 
-
-
-// eslint-disable-next-line
 const datainput = [{ id: 1, BIRTHDAY: '28-05-1963', DEPT: 'Pilot', EMPID: 3, FIRSTNAME: 'Jada', GENDER: '0', HIRED: '11-02-2001', LASTNAME: 'Bender', NATIONALITY: 'Pakistan', PASSPORT: 'JUI65YBK7AF', POSITION: 'Pilot', REGION: 'Canada', STATUS: '1' },
 { id: 2, BIRTHDAY: '03-12-1982', DEPT: 'Flight Planning', EMPID: 5, FIRSTNAME: 'Lillian', GENDER: '0', HIRED: '19-05-2002', LASTNAME: 'Reese', NATIONALITY: 'Ukraine', PASSPORT: 'AZE20CSG4MU', POSITION: 'Steward', REGION: 'Canada', STATUS: '1' },
 { id: 3, BIRTHDAY: '24-05-1987', DEPT: 'Aircraft Maintenance', EMPID: 23, FIRSTNAME: 'Armand', GENDER: '0', HIRED: '19-06-2007', LASTNAME: 'Horn', NATIONALITY: 'Netherlands', PASSPORT: 'NFH65BYM0VB', POSITION: 'Airhostess', REGION: 'Ocenia', STATUS: '1' },
@@ -119,21 +94,6 @@ const datainput = [{ id: 1, BIRTHDAY: '28-05-1963', DEPT: 'Pilot', EMPID: 3, FIR
 { id: 11, BIRTHDAY: '29-06-1996', DEPT: 'Flight Attendance', EMPID: 95, FIRSTNAME: 'Dara', GENDER: '1', HIRED: '18-05-2011', LASTNAME: 'Wilcox', NATIONALITY: 'Singapore', PASSPORT: 'OUP31WOE2IE', POSITION: 'Airhostess', REGION: 'Canada', STATUS: '1' },
 { id: 12, BIRTHDAY: '21-12-1999', DEPT: 'Pilot', EMPID: 97, FIRSTNAME: 'Dante', GENDER: '0', HIRED: '22-02-2016', LASTNAME: 'Hart', NATIONALITY: 'Peru', PASSPORT: 'SUF73DKV4QE', POSITION: 'Pilot', REGION: 'Europe', STATUS: '1' }]
 
-
-
-
-// eslint-disable-next-line
-const rows = [
-    { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
-    { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
-    { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
-    { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
-    { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
-    { id: 6, lastName: 'Melisandre', firstName: null, age: 150 },
-    { id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
-    { id: 8, lastName: 'Frances', firstName: 'Rossini', age: 36 },
-    { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
-];
 
 export default function Table() {
     return (

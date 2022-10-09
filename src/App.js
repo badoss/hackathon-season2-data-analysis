@@ -8,11 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <Typography variant="h4">
-
-        Hackathon Data Analysis Visualization
-        </Typography>
-
+        <Typography variant="h4">Hackathon Data Analysis Visualization</Typography>
       </header>
       <body className='App-body'>
       <Dashboard />

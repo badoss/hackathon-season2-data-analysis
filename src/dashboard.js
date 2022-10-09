@@ -45,15 +45,15 @@ export default function Dashboard() {
                             <Grid xs={12} md={6} >
                                 <Card sx={{ height: 440 }}>
                                     <Typography>
-                                    Relationship between age and gender
+                                        Relationship between age and gender
                                     </Typography>
                                     <Linechart />
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={6} >
                                 <Card sx={{ height: 440 }}>
-                                <Typography>
-                                    Relationship between position and gender
+                                    <Typography>
+                                        Relationship between position and gender
                                     </Typography>
                                     <Barchart />
                                 </Card>
@@ -68,15 +68,12 @@ export default function Dashboard() {
                                 <Card sx={{ height: 400 }}>
                                     <Typography>DEPARTMENT</Typography>
                                     <Piechartdept />
-                                       
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={4} >
                                 <Card sx={{ height: 400 }}>
                                     <Typography>POSITION</Typography>
                                     <Piechartposition />
-                                 
-                                  
                                 </Card>
                             </Grid>
                             <Grid xs={12} md={12} >

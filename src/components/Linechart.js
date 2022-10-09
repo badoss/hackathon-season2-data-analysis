@@ -7,13 +7,11 @@ const data = [
     name: 'Age 20-30',
     Female: 2,
     Male: 2,
-    
   },
   {
     name: 'Age 31-40',
     Female: 1,
     Male: 2,
-
   },
   {
     name: 'Age 41-50',

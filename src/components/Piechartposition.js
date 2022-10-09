@@ -83,7 +83,6 @@ export default class Piechartposition extends PureComponent {
             fill="#8884d8"
             dataKey="value"
             onMouseEnter={this.onPieEnter}
-            
           >
              {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
