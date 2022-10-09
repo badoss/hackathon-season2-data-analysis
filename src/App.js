@@ -18,7 +18,7 @@ function App() {
       <Dashboard />
       </body>
       <footer className="App-footer">
-        BSMx team
+        <Typography>BSMx team</Typography>
         <a href='https://github.com/badoss/hackathon-season2-data-analysis.git'>Link github</a>
       </footer>
     </div>
