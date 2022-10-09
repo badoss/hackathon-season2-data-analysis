@@ -21,8 +21,7 @@ github
 [https://github.com/badoss/hackathon-season2-data-analysis.git]
 
 
-## requirement
-
+## environment 
 - python 3.10.4
 - sqlite3 
 
@@ -42,7 +41,6 @@ python query_view.py
 
 
 ## view DB sqlite
-
 
 1. show view on sqlite
 ``` 
