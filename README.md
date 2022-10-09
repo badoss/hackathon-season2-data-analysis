@@ -37,11 +37,11 @@ python query_view.py
 
 ### output file json
 
-output this file json
+output this file json ```output.json```
 
 ### output file csv
 
-output this file csv
+output this file csv  ```devclub_(countryname).csv```
 
 
 
@@ -56,3 +56,6 @@ python query_view.py
 ``` 
 python query_view.py 
 ```
+
+### file DB
+database file this folder sqlitedb/devclub.db
