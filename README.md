@@ -25,13 +25,14 @@
 
 ## Start running
 
-1. strat running 
+1. cloning this repository
 ``` 
-python start.py 
+git clone https://booooooooooooooooo
 ```
 
-2. .....
+2. strat running 
 ``` 
+cd /folder
 python query_view.py 
 ```
 
@@ -57,5 +58,5 @@ python query_view.py
 python query_view.py 
 ```
 
-### file DB
+### file sqliteDB
 database file this ```devclub.db```
