@@ -19,7 +19,7 @@
     - url[https://github.com/badoss/hackathon-season2-data-analysis.git]
 
 
-## environment 
+## Environment 
 - python 3.10.4     [https://www.python.org]
 - sqlite3           [https://docs.python.org/3/library/sqlite3.html]
 
@@ -46,7 +46,7 @@ output this file csv  ```devclub_(countryname).csv```
 
 
 
-## view sqliteDB
+## View sqliteDB
 
 1. show view on sqlite
 ``` 
