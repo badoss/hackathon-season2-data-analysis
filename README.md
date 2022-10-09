@@ -12,7 +12,7 @@
 
 ## Link show on WEB
 
-- website
+- website (cloudflare)
     - url[https://hackathon-season2-data-analysis.pages.dev]
 
 - github
