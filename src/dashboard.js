@@ -81,7 +81,7 @@ export default function Dashboard() {
                             </Grid>
                             <Grid xs={12} md={12} >
                                 <Card sx={{ height: 900, p: 2 }}>
-                                    <Typography> number of people in each region </Typography>
+                                    <Typography> number of people in each NATIONALITY </Typography>
                                     <Mapgeo />
                                 </Card>
                             </Grid>
