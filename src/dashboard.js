@@ -21,6 +21,7 @@ import Piechartdept from "./components/Piechartdept";
 import Piechartregion from "./components/Piechartregion";
 import Piechartposition from "./components/Piechartposition";
 import Table from "./components/Table";
+import Table2 from "./components/Table2";
 import Mapgeo from "./components/map";
 
 export default function Dashboard() {
@@ -36,7 +37,8 @@ export default function Dashboard() {
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <TabList onChange={handleChange} aria-label="lab API tabs example" centered>
                         <Tab label="data analysis" value="1" />
-                        <Tab label="data table" value="2" />
+                        <Tab label="data clencing" value="2" />
+                        <Tab label="data original" value="3" />
                     </TabList>
                 </Box>
                 <TabPanel value="1" sx={{ p: 1, backgroundColor: "#E7C2C2" }}>
@@ -89,6 +91,12 @@ export default function Dashboard() {
 
                     <Box sx={{ p: 3, height: 900 }}>
                         <Table />
+                    </Box>
+                </TabPanel>
+                <TabPanel value="3" sx={{ p: 3, backgroundColor: "#F1E2E2", borderRadius: 4 }}>
+
+                    <Box sx={{ p: 3, height: 900 }}>
+                        <Table2 />
                     </Box>
                 </TabPanel>
             </TabContext>

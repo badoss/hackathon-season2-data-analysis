@@ -97,11 +97,11 @@ const datainput = [{ id: 1, BIRTHDAY: '28-05-1963', DEPT: 'Pilot', EMPID: 3, FIR
 
 export default function Table() {
     return (
-        <Box sx={{ height: 600, width: '100%', backgroundColor: "#FFFF", borderRadius: 2 }}>
+        <Box sx={{ height: 800, width: '100%', backgroundColor: "#FFFF", borderRadius: 2 }}>
             <DataGrid
                 rows={datainput}
                 columns={columns}
-                pageSize={10}
+                pageSize={25}
                 rowsPerPageOptions={[10]}
                 // checkboxSelection
                 disableSelectionOnClick
