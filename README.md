@@ -12,13 +12,11 @@
 
 ## Link show on WEB
 
-website
+- website
+    - url[https://hackathon-season2-data-analysis.pages.dev]
 
-[https://hackathon-season2-data-analysis.pages.dev]
-
-github
-
-[https://github.com/badoss/hackathon-season2-data-analysis.git]
+- github
+    - url[https://github.com/badoss/hackathon-season2-data-analysis.git]
 
 
 ## environment 
@@ -37,6 +35,9 @@ python start.py
 python query_view.py 
 ```
 
+### output file
+
+output this file json
 
 
 
