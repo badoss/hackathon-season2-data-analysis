@@ -58,4 +58,4 @@ python query_view.py
 ```
 
 ### file DB
-database file this folder sqlitedb/devclub.db
+database file this ```devclub.db```
