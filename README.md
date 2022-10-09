@@ -21,7 +21,9 @@
 
 ## environment 
 - python 3.10.4
-- sqlite3 
+    -[https://www.python.org]
+- sqlite3
+    -[https://docs.python.org/3/library/sqlite3.html]
 
 ## Start running
 
