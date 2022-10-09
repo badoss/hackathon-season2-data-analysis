@@ -4,14 +4,11 @@
 ### Team member
 
 - Theerawat Suetheesuphasakul 
-
- github[https://github.com/sajarudth]
+    - github[https://github.com/sajarudth]
 - Paphavich Duangkeawsansuk
-
- github[https://github.com/thaiversion]
+    - github[https://github.com/thaiversion]
 - Thongrit Thongrit
-
- github[https://github.com/badoss]
+    - github[https://github.com/badoss]
 
 ## Link show on WEB
 
