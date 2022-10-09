@@ -78,9 +78,9 @@ export default function Dashboard() {
                         </Grid>
                     </Box>
                 </TabPanel>
-                <TabPanel value="2"  sx={{ p : 1,   backgroundColor : "#F1E2E2" , borderRadius : 2}}>
+                <TabPanel value="2"  sx={{ p : 3,   backgroundColor : "#F1E2E2" , borderRadius : 4}}>
 
-                    <Box sx={{p: 2 , height : 700 }}>
+                    <Box sx={{p: 3 , height : 900 }}>
                         <Table />
                     </Box>
                 </TabPanel>
