@@ -3,11 +3,11 @@
 
 ### Team member
 
-- Theerawat Suetheesuphasakul 
+- Mr.Theerawat Suetheesuphasakul 
     - github[https://github.com/sajarudth]
-- Paphavich Duangkeawsansuk
+- Mr.Paphavich Duangkeawsansuk
     - github[https://github.com/thaiversion]
-- Thongrit Thongrit
+- Mr.Thongrit Thongrit
     - github[https://github.com/badoss]
 
 ## Link show on WEB
