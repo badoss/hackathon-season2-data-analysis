@@ -46,7 +46,7 @@ output this file csv  ```devclub_(countryname).csv```
 
 
 
-## view DB sqlite
+## view sqliteDB
 
 1. show view on sqlite
 ``` 
