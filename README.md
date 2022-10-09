@@ -35,9 +35,13 @@ python start.py
 python query_view.py 
 ```
 
-### output file
+### output file json
 
 output this file json
+
+### output file csv
+
+output this file csv
 
 
 
