@@ -33,30 +33,31 @@ git clone https://booooooooooooooooo
 2. strat running 
 ``` 
 cd /folder
-python query_view.py 
+python3 query_view.py 
 ```
 
 ### output file json
 
-output this file json ```output.json```
+output this file json `output.json`
 
 ### output file csv
 
-output this file csv  ```devclub_(countryname).csv```
+output this file csv  `devclub_(countryname).csv`
 
 
 
 ## View sqliteDB
 
+### file sqliteDB
+database file this `devclub.db`
+
 1. show view on sqlite
 ``` 
-python query_view.py 
+python3 query_view.py 
 ```
 2. ....
 
 ``` 
-python query_view.py 
+python3 query_view.py 
 ```
 
-### file sqliteDB
-database file this ```devclub.db```
