@@ -23,6 +23,7 @@ import Piechartposition from "./components/Piechartposition";
 import Table from "./components/Table";
 import Table2 from "./components/Table2";
 import Mapgeo from "./components/map";
+import Chatbot from "./components/chatbot";
 
 export default function Dashboard() {
 
@@ -39,6 +40,7 @@ export default function Dashboard() {
                         <Tab label="data analysis" value="1" />
                         <Tab label="data clencing" value="2" />
                         <Tab label="data original" value="3" />
+                        <Tab label="chat bot" value="4" />
                     </TabList>
                 </Box>
                 <TabPanel value="1" sx={{ p: 1, backgroundColor: "#E7C2C2" }}>
@@ -97,6 +99,12 @@ export default function Dashboard() {
 
                     <Box sx={{ p: 3, height: 900 }}>
                         <Table2 />
+                    </Box>
+                </TabPanel>
+                <TabPanel value="4" sx={{ p: 3, backgroundColor: "#F1E2E2", borderRadius: 4 }}>
+
+                    <Box sx={{ p: 3, height: 900 }}>
+                        <Chatbot />
                     </Box>
                 </TabPanel>
             </TabContext>

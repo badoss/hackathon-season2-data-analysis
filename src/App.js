@@ -10,9 +10,9 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Typography variant="h4">Hackathon Data Analysis Visualization</Typography>
       </header>
-      <body className='App-body'>
+     
       <Dashboard />
-      </body>
+
       <footer className="App-footer">
         <Typography>mVATOR team</Typography>
         <a href='https://github.com/badoss/hackathon-season2-data-analysis.git'>Link github</a>
